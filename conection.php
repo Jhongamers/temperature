@@ -1,6 +1,6 @@
 <?php
 
-$json = json_decode(file_get_contents('https://api.hgbrasil.com/weather?key=92f945c8&user_ip=user_ip'),true);
+$json = json_decode(file_get_contents('https://api.hgbrasil.com/weather?key=your_api8&user_ip=user_ip'),true);
 echo 'cidade:'.$json['results']['city'].'<br>';
 echo 'descrição:'.$json['results']['description'].'<br>';
 echo'cidade:'.$json['results']['city'].'<br>';
